@@ -9,7 +9,7 @@ import java.util.Set;
 public class Author {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.AUTO)//used for generating primary keys
     private Long id;
     private String firstName;
     private String lastName;
